@@ -1,4 +1,4 @@
-# Script for retrieving networks from twitter friends data of a given user
+# Script for retrieving accounts related to  a given user
 
 
 tw_accounts <- function(tw_user) {
