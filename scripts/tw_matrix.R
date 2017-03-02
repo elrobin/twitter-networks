@@ -4,12 +4,9 @@
 # To use this script you need to connect to the OAth Twitter API and already 
 # identified the community of users in a data frame using tw_accounts.R
 
-library(rtweet)
-
-df <- NULL
-
 tw_matrix <- function(nodes) {
-  
+  library(rtweet)
+  df <- NULL  
   for (i in 1:length(nodes)) {
 
     # if rate limit is hit, wait for 15 minutes
