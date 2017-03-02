@@ -14,7 +14,7 @@ devtools::install_github("mkearney/rtweet")
 ## List of scripts
 
 - `tw_accounts.R`. Retrieves list of twitter users who follow and are followed by a given user.
-- `tw_matrix.R`. Given a set of twitter accounts it creates a matrix of relations depending on who follows who.
+- `tw_matrix.R`. Still under development. Given a set of twitter accounts it creates a matrix of relations depending on who follows who.
 
 ## Old script
 
